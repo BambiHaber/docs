@@ -186,13 +186,13 @@ function navigateToFeatured(args) {
     page.frame.navigate("featured-page");
 }
 
-function navigateToBrowse(args: EventData) {
+function navigateToBrowse(args) {
     const button = args.object;
     const page = button.page;
     page.frame.navigate("browse-page");
 }
 
-function navigateToSearch(args: EventData) {
+function navigateToSearch(args) {
     const button = args.object;
     const page = button.page;
     page.frame.navigate("search-page");
